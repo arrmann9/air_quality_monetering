@@ -1,0 +1,23 @@
+numpy>=1.22.0
+pandas>=1.4.0
+matplotlib>=3.5.0
+scipy>=1.8.0
+scikit-learn>=1.0.0
+scikit-image>=0.19.0
+h5py>=3.0.0
+joblib>=1.0.0
+tqdm>=4.0.0
+
+
+This structure provides:
+1. Clear separation of raw/processed data
+2. Versioned models
+3. Well-organized outputs
+4. Self-contained processing scripts
+5. Documentation for backend integration
+
+The backend team can use:
+- The NumPy arrays (`*.npy`) for direct integration
+- The CSV files for validation
+- The PNG images for visualization
+- The trained models for API deployment
